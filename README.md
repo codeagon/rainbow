@@ -3,7 +3,7 @@ lgbt my shit up fam
 ***
 [![Discord](https://discordapp.com/api/guilds/385946679733518338/widget.png)](https://discord.gg/dzB7xZK)
 
-![wow](https://thumbs.gfycat.com/ThreadbareHealthyFinwhale-max-1mb.gif)
+![wow](https://i.imgur.com/3DxSAjQ.gif)
 ***
 [gimme ur freakin money right now](https://ko-fi.com/codeagon)
 ***
