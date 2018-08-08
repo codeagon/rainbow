@@ -1,10 +1,4 @@
-
-
-const GameState = require('tera-game-state');
-
-
 module.exports = function (mod) {
-	const game = GameState(mod);
 	let timer,
 		speed = 100,
 		mode = 'hue',
@@ -158,12 +152,12 @@ module.exports = function (mod) {
 	}
 
 	mod.hook('S_USER_EXTERNAL_CHANGE', 6, { order: 999, filter: { fake: null } }, (event) => {
-		if (event.gameId.equals(game.me.gameId)) {
+		if (mod.game.me.is(event.gameId)) {
 			Object.assign(outfit, event);
 		}
 	})
 	mod.hook('S_USER_EXTERNAL_CHANGE', 6, { order: 900 }, (event) => {
-		if (event.gameId.equals(game.me.gameId)) {
+		if (mod.game.me.is(event.gameId)) {
 			Object.assign(outfit, event);
 		}
 	});
