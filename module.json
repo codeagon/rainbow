@@ -1,5 +1,12 @@
 {
 	"disableAutoUpdate": false,
-	"servers": ["https://raw.githubusercontent.com/codeagon/rainbow/master/"],
+	"name": "Rainbow",
+	"author": "Pentagon",
+	"description": "Makes ur char go rainbow",
+	"donationUrl": "https://ko-fi.com/codeagon",
+	"version": "1.0",
+	"servers": [
+		"https://raw.githubusercontent.com/codeagon/rainbow/master/"
+	],
 	"supportUrl": "https://discord.gg/uhDAXWQ"
 }
