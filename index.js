@@ -147,16 +147,16 @@ module.exports = function (mod) {
 		}
 		dyeCol = hslToRgb(hueValue, satVal, lightVal)
 		outfit.styleBodyDye = (lgbtMe(dyeCol))
-		mod.send('S_USER_EXTERNAL_CHANGE', 6, Object.assign({},
+		mod.send('S_USER_EXTERNAL_CHANGE', 7, Object.assign({},
 			outfit));
 	}
 
-	mod.hook('S_USER_EXTERNAL_CHANGE', 6, { order: 999, filter: { fake: null } }, (event) => {
+	mod.hook('S_USER_EXTERNAL_CHANGE', 7, { order: 999, filter: { fake: null } }, (event) => {
 		if (mod.game.me.is(event.gameId)) {
 			Object.assign(outfit, event);
 		}
 	})
-	mod.hook('S_USER_EXTERNAL_CHANGE', 6, { order: 900 }, (event) => {
+	mod.hook('S_USER_EXTERNAL_CHANGE', 7, { order: 900 }, (event) => {
 		if (mod.game.me.is(event.gameId)) {
 			Object.assign(outfit, event);
 		}
